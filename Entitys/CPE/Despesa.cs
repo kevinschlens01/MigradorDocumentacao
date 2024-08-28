@@ -1,0 +1,132 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MigradorDocumentacao.Entitys.CPE
+{
+    public class Despesa
+    {
+        public int Id { get; set; }
+        public int PortalId { get; set; }
+        public string HashRegistro { get; set; }
+        public string CodigoFilialHash { get; set; }
+        public string? SblFase { get; set; }
+        public string? NomFase { get; set; }
+        public int? SeqGgEmpresa { get; set; }
+        public string? NomEmpresa { get; set; }
+        public string? NroEmpresaCnpj { get; set; }
+        public int? SeqGgFilial { get; set; }
+        public string? NomFilial { get; set; }
+        public string? NroFilialCnpj { get; set; }
+        public int? SeqDocumento { get; set; }
+        public string? SblDocumento { get; set; }
+        public string? NomDocumento { get; set; }
+        public int? AnoDocumento { get; set; }
+        public string? NrdDocumento { get; set; }
+        public DateTime? DatDocumento { get; set; }
+        public string? MesDocumento { get; set; }
+        public int? AnoProcesso { get; set; }
+        public string? NrdProcesso { get; set; }
+        public string? NomEmpenhoTipo { get; set; }
+        public int? AnoEmpenho { get; set; }
+        public string? NrdEmpenho { get; set; }
+        public string? NomLiquidacaoTipo { get; set; }
+        public int? AnoLiquidacao { get; set; }
+        public string? NrdLiquidacao { get; set; }
+        public string? SblPagamentoTipo { get; set; }
+        public string? NomPagamentoTipo { get; set; }
+        public int? AnoPagamento { get; set; }
+        public string? NrdPagamento { get; set; }
+        public string? CnoOrgao { get; set; }
+        public string? CnoUnidadeOrcamentaria { get; set; }
+        public string? CnoFuncao { get; set; }
+        public string? CnoSubFuncao { get; set; }
+        public string? CnoPrograma { get; set; }
+        public string? CnoAtividadeProjeto { get; set; }
+        public string? CnoPlanoContaCategoria { get; set; }
+        public string? CnoPlanoContaGrupo { get; set; }
+        public string? CnoPlanoContaModalidade { get; set; }
+        public string? CnoPlanoContaElemento { get; set; }
+        public string? CnoPlanoConta { get; set; }
+        public string? CnoFonteRecurso { get; set; }
+        public string? NomPessoaTipo { get; set; }
+        public string? NomPessoa { get; set; }
+        public string? NroPessoaCpfCnpj { get; set; }
+        public string? NomContratoTipo { get; set; }
+        public int? AnoContrato { get; set; }
+        public string? NrdContrato { get; set; }
+        public DateTime? DatContratoAssinatura { get; set; }
+        public DateTime? DatContratoInicio { get; set; }
+        public DateTime? DatContratoTermino { get; set; }
+        public string? NomLicitacaoModalidade { get; set; }
+        public string? NomLicitacaoClassificacao { get; set; }
+        public int? AnoLicitacao { get; set; }
+        public string? NrdLicitacao { get; set; }
+        public string? CnoDispensaInexigibilidade { get; set; }
+        public int? AnoConvenio { get; set; }
+        public string? NrdConvenio { get; set; }
+        public string? HstDocumento { get; set; }
+        public decimal? VlrDocumento { get; set; }
+        public string? NomCentroCusto { get; set; }
+        public string? NnoPagamentoBancoDocumento { get; set; }
+        public string? Anexo { get; set; }
+        public int? SeqCtConvenio { get; set; }
+        public int? Mes { get; set; }
+        public string? Nom_Mes { get; set; }
+        public int? AnoLiquidacaoCompetencia { get; set; }
+        public string? MesLiquidacaoCompetencia { get; set; }
+        public int? AnoEmpenhoCompetencia { get; set; }
+        public string? MesEmpenhoCompetencia { get; set; }
+        public int? VlrDocumentoDesconto { get; set; }
+        public string? CodWebEmpenho { get; set; }
+        public string? CodWebLiquidacao { get; set; }
+        public string? CodWebPagamento { get; set; }
+        public string? CodDiaria { get; set; }
+        public string? CodPlanoConta { get; set; }
+        public string? NomPlanoConta { get; set; }
+        public string? Dig1 { get; set; }
+        public string? Dig2 { get; set; }
+        public string? Dig3 { get; set; }
+        public string? Dig4 { get; set; }
+        public string? Dig5 { get; set; }
+        public string? Dig6 { get; set; }
+        public string? Dig7 { get; set; }
+        public string? Dig8 { get; set; }
+        public string? Dig9 { get; set; }
+        public string? CodFuncao { get; set; }
+        public string? NomFuncao { get; set; }
+        public string? CodSubfuncao { get; set; }
+        public string? NomSubfuncao { get; set; }
+        public string? CodFonteRecurso1 { get; set; }
+        public string? CodFonteRecurso2 { get; set; }
+        public string? CodFonteRecurso { get; set; }
+        public string? NomFonteRecurso { get; set; }
+        public string? Dia { get; set; }
+        public string? NroLiquidacaoDocumentoFiscal { get; set; }
+        public int? PortalGrupo { get; set; }
+        public string? SblEmpenhoClassificaoDespesa { get; set; }
+        public string? SblProgramaClassificaoDespesa { get; set; }
+        public string? SblAtividadeProjetoClassificacaoDespesa { get; set; }
+        public string? SblFonteRecursoClassificaoDespesa { get; set; }
+        public int? EsferaAdministrativa { get; set; }
+        public string? EsferaPoder { get; set; }
+        public string? EsferaPoderTipo { get; set; }
+        public string? EsferaPoderUg { get; set; }
+        public string? CodigoTce { get; set; }
+        public DateTime? DatLiquidacaoVencimento { get; set; }
+        public string? HstLiquidacaoOrdemCronologica { get; set; }
+        public DateTime? DatLiquidacaoAtestamento { get; set; }
+        public string? CompFonteRecurso { get; set; }
+        public string? DscOrdemCronologica { get; set; }
+        public string? NroPagamentoConta { get; set; }
+        public string? NomPagamentoConta { get; set; }
+        public string? SblPagamentoTipoDocumento { get; set; }
+        public int? SeqCpLicitacao { get; set; }
+        public string? NotaDespesaS3 { get; set; }
+        public string? NdaDiariaLei { get; set; }
+        public string? HashRegistroCpe { get; set; }
+        public string? ControleCpe { get; set; }
+    }
+}

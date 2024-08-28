@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MigradorDocumentacao.Entitys
+namespace MigradorDocumentacao.Entitys.CPE
 {
     public class Transferencia
     {
